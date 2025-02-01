@@ -40,7 +40,7 @@ c = 3200582589046258776155111823678284049720921208421907625678046048235090972062
 - reversing it using the script below gives out 
 	Decrypted message: 3402075368099565918980438969562282468212149998586161083024073350756029275476696677330266590356541973940907139655558122906847507731146238447609310669027184
 
-![[pai-dec.py]](pai-dec.py)
+![[pai-dec 1.py]](pai-dec.py)
 
 - this looks like another value , but this is less than n hence can even be a simple RSA , going back to ghidra code , there are 14 functions except main top 4 functions describe 2 different cryptographic techniques one is pcs and other one is RSA only hence slapping this new c , and same n , only thing left is e , e is given as 65537 in a function rsv which is a fake function so fake e , we had to look at the factors to get e or take the free hint .
 - using n , c and e we get `539757526648120958511049` , treating as ascii and converting to text , it gives `5a9dB0x_Un1`
