@@ -11,9 +11,9 @@ Eve faces a Riftwalker in a rapid-fire trivia duel, with her team’s combined k
 - so the des-cbc decryption gives us  7546466675674756587 i.e the password for the zip file
 
 - in the zip file we have :
-	n : 2956183112176302343819566655710139
-	e : 17
-	c : 789269312820461742969346331358248
+	n : 2956183112176302343819566655710139 , 
+	e : 17 , 
+	c : 789269312820461742969346331358248 , 
 as the n < c this points to being an RSA encryption
 
 now to use sites like tausquared.net to decrypt rsa we need p and q and for that we can go to anoher site called factordb cause the number is small enough to be factorized
