@@ -6,12 +6,12 @@ Kara Nix reappears, her shimmering with static. "The shard lies beyond knowledge
 - There is a file given named nix . when run file on it , it return data only.
 - Running hexedit on it gives away it is a JPEG from broken headers
 
-  ![[nix_hexedit.png]]
+  ![nix_hexedit.png](nix_hexedit.png)
 
 - rebuilding the headers , FF D8 FF E0 00 10 , returns a valid image 
 - now further in the hints , we get `There are insects out there in the wild who appeared only twice`  this hints to cicada 3301 , where in one of the cicada challenges there was manipulation of image length from its hex.
 
-![[nix_offset.png]]
+![[nix_offset.png]](nix_offset.png)
 `we changed 03 to 04 hence revealing the whole image`
 
 - so manipulating the length offsets , as below we get `Ahle_0b_3Cz03i` at the bottom right which is in vignere cipher
