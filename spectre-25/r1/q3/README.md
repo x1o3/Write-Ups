@@ -4,7 +4,7 @@ You   enter   the   Pixel   Coliseum,   a   sprawling  arena  with  tow
 
   we have  a binary executable named `hurry` when run it just takes an input and returns Program completed successfully! but when opened in ghidra we can look at several functions except main . one of the function `something_sus` has the following hex data 
 
-![[hurry_ghidra.png]]
+![hurry_ghidra.png](hurry_ghidra.png)
 converting all these hex give us the flag
 
 
