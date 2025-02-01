@@ -7,7 +7,7 @@ The masterpiece glows. Kira’s voice resonates:
 
 - we have a directory in which we got 3 files `sam , system , r1ftwalk3r.zip` now sam and system directly to windows system files and the zip is password protected , so using secretsdump.py on it (which is a well known script by impacket) , we get the following 
 
-![[secretsdump.png]]
+![[secretsdump.png]](secretsdump.png)
 
 - now in the r1ftwalk3r there are 2 directories , can be seen through gui , sp3ctr3 and player so trying noth of there NT and LM hashes we find NT hash of player to successfuly unlock the zip.
 
@@ -29,11 +29,11 @@ john hash.hash --wordlist=pass.list
 
 - here we can see that 2 files are used in this code input.txt and image.bmp , now furthur analysing the code we can see two other functions embed and encodeBit have been used , opening encodeBit looks like a normal xor function whereas embed tells us that it is a one bit encoding 
 
-![[main.png]]
+![[main.png]](main.png)
 
-![[encodeBit.png]]
+![[encodeBit.png]](encodeBit.png)
 
-![[embed.png]]
+![[embed.png]](embed.png)
 
 - now in the main function we are running a loop for 8 iterations telling 8 bit for every character in local_38 , i.e the file input.txt , so furthur analysing this tells us that the encodeBit is triggered if local_28 & 1 != 0 also it can be seen that local_28 is being used as an indexing value because in each iteration it is incremented by 1.
 
@@ -50,7 +50,7 @@ john hash.hash --wordlist=pass.list
 
 - now to extract what is hidden in the image we can cook our own c script and use that on the file named access , we can change its extension to image.bmp
 
-![[decryption.c]]
+[decryption.c](decryption.c)
 
 - now using this script above gives us f60c2d5dc14560b758bb7aa187983b9c which is another NT hash using it on the sp3ctr3 zip we get 2 files purpose.zip and fasttrack.txt
 
