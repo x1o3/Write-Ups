@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "bbf14c7fe1eb9096",
+    "type": "split",
+    "children": [
+      {
+        "id": "2407db8784b78073",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e42a0e66cd5cccde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spectre-25/r1/q2/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "014103f7ba0dd1bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spectre-25/r1/q5/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "e03b50bac2555d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spectre-25/r1/q1/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "51729dda828f5dde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spectre-25/r1/q2/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52470230ebb26aac",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0eecc4e8025529f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fdd654603c6f602",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0f90259d84e06022",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6e568d8eb435fc42",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "349e042deb6fc84a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9447141f490d2826",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb53fd59712aae46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "spectre-25/r1/Q1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Q1"
+            }
+          },
+          {
+            "id": "bcab80a72565a46b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "spectre-25/r1/Q1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Q1"
+            }
+          },
+          {
+            "id": "08142603dcfe6f59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4c56e5c567d94f69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "spectre-25/r1/Q1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Q1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "51729dda828f5dde",
+  "lastOpenFiles": [
+    "spectre-25/r1/q1/README.md",
+    "spectre-25/r1/q2/README.md",
+    "spectre-25/r1/q2/inbox_Kara.txt",
+    "spectre-25/r1/q2/flag.py",
+    "spectre-25/r1/q5/README.md",
+    "spectre-25/r1/q1/arcade.jpg",
+    "spectre-25/r1/q3/README.md",
+    "spectre-25/r1/q5/S3W.bin",
+    "spectre-25/r1/q3/hurry",
+    "spectre-25/r1/q3/hurry_ghidra.png",
+    "Untitled 1.md",
+    "spectre-25/r1/q5",
+    "spectre-25/r1/q3",
+    "spectre-25/r1/q2",
+    "spectre-25/r1/q1",
+    "spectre-25/r4/README.md",
+    "spectre-25/r5/README.md",
+    "spectre-25/r4/secretsdump.png",
+    "spectre-25/r4/main.png",
+    "spectre-25/r4/encodeBit.png",
+    "spectre-25/r4/embed.png",
+    "spectre-25/r4/decryption.c",
+    "spectre-25/r4/q2/system",
+    "spectre-25/r4/q2/README.md",
+    "spectre-25/q2/secretsdump.png",
+    "spectre-25/q2/main.png",
+    "spectre-25/q2/encodeBit.png",
+    "spectre-25/q2/embed.png",
+    "spectre-25/q2/README.md",
+    "spectre-25/r2/q4/README.md",
+    "spectre-25/r2/q3/README.md",
+    "spectre-25/r2/q2/README.md",
+    "spectre-25/r3/q3/README.md",
+    "spectre-25/r3/q1/README.md",
+    "spectre-25/r5/README.md.md",
+    "nix.md",
+    "Welcome.md"
+  ]
+}
