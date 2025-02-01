@@ -22,7 +22,7 @@ crunch 8 8 k1ram0rrow > pass.list
 
 - we can use the following python script to work with this , extracting last 2 lsbs then mapping them back as 4 bit msbs in a new image
 
-![[steg-extract.py]](steg-extract.py)
+[steg-extract.py](steg-extract.py)
 
 - finally we can see the flag in the image 
 
